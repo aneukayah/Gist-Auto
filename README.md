@@ -4,6 +4,6 @@ To run the test:
 
 2. Make sure your chrome driver is compatible with your chrome browser (chrome 84 version included)
 
-3. Make sure node modules already installed in your system
+3. Make sure node modules already installed in your system (included in repo)
 
 4. Edit username and email with your's credential in gist.feature file at features folder
