@@ -1,0 +1,221 @@
+[
+  {
+    "elements": [
+      {
+        "id": "gist-create-edit-delete;create-public-gist",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Create Public gist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Go to gist websites",
+            "result": {
+              "status": "passed",
+              "duration": 4632850561
+            },
+            "line": 3,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:11"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Email",
+                      "syahrulazmi@me.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Password",
+                      "suKaatiKo256"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "User input",
+            "result": {
+              "status": "passed",
+              "duration": 2389534
+            },
+            "line": 4,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User at gist page",
+            "result": {
+              "status": "passed",
+              "duration": 336789
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:26"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "description",
+                      "cobaaja123"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "filename",
+                      "test.xml"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "body",
+                      "sendiri"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "Fill",
+            "result": {
+              "status": "passed",
+              "duration": 1056779
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User Click Create Public gist button",
+            "result": {
+              "status": "passed",
+              "duration": 227623
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User Click Edit button",
+            "result": {
+              "status": "passed",
+              "duration": 577333
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:49"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "editdesc",
+                      "00edit"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "editbody",
+                      "editaja"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "Fill Edit",
+            "result": {
+              "status": "passed",
+              "duration": 1189260
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User Click Delete button",
+            "result": {
+              "status": "passed",
+              "duration": 305599
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User confirm delete",
+            "result": {
+              "status": "passed",
+              "duration": 828371
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User see all gist",
+            "result": {
+              "status": "passed",
+              "duration": 380468
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 14703226332
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gist-create-edit-delete",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Gist Create Edit Delete",
+    "tags": [],
+    "uri": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/features/gist.feature"
+  }
+]
