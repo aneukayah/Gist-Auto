@@ -13,11 +13,11 @@
             "name": "Go to gist websites",
             "result": {
               "status": "passed",
-              "duration": 4632850561
+              "duration": 6625368467
             },
             "line": 3,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:11"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:11"
             }
           },
           {
@@ -27,13 +27,13 @@
                   {
                     "cells": [
                       "Email",
-                      "syahrulazmi@me.com"
+                      "githubid"
                     ]
                   },
                   {
                     "cells": [
                       "Password",
-                      "suKaatiKo256"
+                      "pass"
                     ]
                   }
                 ]
@@ -43,11 +43,11 @@
             "name": "User input",
             "result": {
               "status": "passed",
-              "duration": 2389534
+              "duration": 2499727
             },
             "line": 4,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:16"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:16"
             }
           },
           {
@@ -56,11 +56,11 @@
             "name": "User at gist page",
             "result": {
               "status": "passed",
-              "duration": 336789
+              "duration": 297207
             },
             "line": 7,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:26"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:26"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "Fill",
             "result": {
               "status": "passed",
-              "duration": 1056779
+              "duration": 1585621
             },
             "line": 8,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:30"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:30"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "User Click Create Public gist button",
             "result": {
               "status": "passed",
-              "duration": 227623
+              "duration": 320806
             },
             "line": 12,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:42"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:42"
             }
           },
           {
@@ -118,11 +118,11 @@
             "name": "User Click Edit button",
             "result": {
               "status": "passed",
-              "duration": 577333
+              "duration": 461242
             },
             "line": 13,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:49"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:49"
             }
           },
           {
@@ -148,11 +148,11 @@
             "name": "Fill Edit",
             "result": {
               "status": "passed",
-              "duration": 1189260
+              "duration": 668086
             },
             "line": 14,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:54"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:54"
             }
           },
           {
@@ -161,11 +161,11 @@
             "name": "User Click Delete button",
             "result": {
               "status": "passed",
-              "duration": 305599
+              "duration": 262582
             },
             "line": 17,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:65"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:65"
             }
           },
           {
@@ -174,11 +174,11 @@
             "name": "User confirm delete",
             "result": {
               "status": "passed",
-              "duration": 828371
+              "duration": 563767
             },
             "line": 18,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:69"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:69"
             }
           },
           {
@@ -187,23 +187,24 @@
             "name": "User see all gist",
             "result": {
               "status": "passed",
-              "duration": 380468
+              "duration": 331174
             },
             "line": 19,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/step-definitions/gist-steps.js:74"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:74"
             }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "passed",
-              "duration": 14703226332
+              "status": "failed",
+              "duration": 3852670634,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name=\"gist\\[description\\]\"]\"}\n  (Session info: chrome=83.0.4103.97)\n  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Linux 4.15.0-101-generic x86_64)\n    at Object.checkLegacyResponse (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/error.js:529:15)\n    at parseHttpResponse (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)\nFrom: Task: WebDriver.findElement(By(css selector, *[name=\"gist\\[description\\]\"]))\n    at thenableWebDriverProxy.schedule (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:1014:17)\n    at createWorld.<anonymous> (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:36:18)\n    at _combinedTickCallback (internal/process/next_tick.js:132:7)\n    at process._tickCallback (internal/process/next_tick.js:181:9)\nFrom: Task: WebElement.sendKeys()\n    at thenableWebDriverProxy.schedule (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElementPromise.schedule_ (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:2015:25)\n    at WebElementPromise.sendKeys (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:2178:19)\n    at createWorld.<anonymous> (/home/syahrul/Desktop/R&D/shopee/Gist-Auto/step-definitions/gist-steps.js:36:60)\n    at _combinedTickCallback (internal/process/next_tick.js:132:7)"
             },
             "hidden": true,
             "match": {
-              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/node_modules/selenium-cucumber-js/runtime/world.js:250"
             }
           }
         ],
@@ -216,6 +217,6 @@
     "line": 1,
     "name": "Gist Create Edit Delete",
     "tags": [],
-    "uri": "/home/syahrul/Desktop/R&D/shopee/Gist-Automation/features/gist.feature"
+    "uri": "/home/syahrul/Desktop/R&D/shopee/Gist-Auto/features/gist.feature"
   }
 ]

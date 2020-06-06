@@ -2,28 +2,28 @@
 <testsuites>
     <testsuite name="gist-create-edit-delete;create-public-gist" tests="10" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/home/syahrul/Desktop/R&amp;D/shopee/Gist-Automation/features/gist.feature">
+            <property name="URI" value="/home/syahrul/Desktop/R&amp;D/shopee/Gist-Auto/features/gist.feature">
             </property>
         </properties>
-        <testcase name="Given Go to gist websites" classname="gist-create-edit-delete;create-public-gist" time="4.632850561">
+        <testcase name="Given Go to gist websites" classname="gist-create-edit-delete;create-public-gist" time="6.625368467">
         </testcase>
-        <testcase name="And User input" classname="gist-create-edit-delete;create-public-gist" time="0.002389534">
+        <testcase name="And User input" classname="gist-create-edit-delete;create-public-gist" time="0.002499727">
         </testcase>
-        <testcase name="And User at gist page" classname="gist-create-edit-delete;create-public-gist" time="0.000336789">
+        <testcase name="And User at gist page" classname="gist-create-edit-delete;create-public-gist" time="0.000297207">
         </testcase>
-        <testcase name="And Fill" classname="gist-create-edit-delete;create-public-gist" time="0.001056779">
+        <testcase name="And Fill" classname="gist-create-edit-delete;create-public-gist" time="0.001585621">
         </testcase>
-        <testcase name="Then User Click Create Public gist button" classname="gist-create-edit-delete;create-public-gist" time="0.000227623">
+        <testcase name="Then User Click Create Public gist button" classname="gist-create-edit-delete;create-public-gist" time="0.000320806">
         </testcase>
-        <testcase name="And User Click Edit button" classname="gist-create-edit-delete;create-public-gist" time="0.000577333">
+        <testcase name="And User Click Edit button" classname="gist-create-edit-delete;create-public-gist" time="0.000461242">
         </testcase>
-        <testcase name="And Fill Edit" classname="gist-create-edit-delete;create-public-gist" time="0.00118926">
+        <testcase name="And Fill Edit" classname="gist-create-edit-delete;create-public-gist" time="0.000668086">
         </testcase>
-        <testcase name="And User Click Delete button" classname="gist-create-edit-delete;create-public-gist" time="0.000305599">
+        <testcase name="And User Click Delete button" classname="gist-create-edit-delete;create-public-gist" time="0.000262582">
         </testcase>
-        <testcase name="And User confirm delete" classname="gist-create-edit-delete;create-public-gist" time="0.000828371">
+        <testcase name="And User confirm delete" classname="gist-create-edit-delete;create-public-gist" time="0.000563767">
         </testcase>
-        <testcase name="Then User see all gist" classname="gist-create-edit-delete;create-public-gist" time="0.000380468">
+        <testcase name="Then User see all gist" classname="gist-create-edit-delete;create-public-gist" time="0.000331174">
         </testcase>
     </testsuite>
 </testsuites>
